@@ -1,11 +1,17 @@
+import EmptySpace from "../components/layout/EmptySpace";
+import FlexMiddleCenter from "../components/layout/FlexMiddleCenter";
+import HomeIndegoLogo from "../components/logos/HomeIndegoLogo";
+import HomeNav from "../components/navigation_bars/HomeNav";
+import Page from "../components/wrappers/Page";
 
-function Home() {
+export default function Home() {
   return (
-    <div className="">
-      Hello World
-    </div>
+    <Page>
+      <HomeNav/>
+      <FlexMiddleCenter>
+        <EmptySpace height={10}/>
+        <HomeIndegoLogo/>
+      </FlexMiddleCenter>
+    </Page>
   );
 }
-
-export default Home;
-
