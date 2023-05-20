@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-primary {
+  @apply text-indigo-700;
+}
+
+.text-secondary {
+  @apply text-yellow-400;
+}
+
+.bg-primary {
+  @apply bg-indigo-700;
+}
+
+.bg-secondary {
+  @apply bg-yellow-400;
+}
